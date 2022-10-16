@@ -1,6 +1,6 @@
-ion-content{
+/*ion-content{
   --background: url('../../assets/Background.jpg') no-repeat center center / cover !important;
-}
+}*/
 
 .mostrarFormulario{
   width: 100%;
@@ -10,4 +10,17 @@ ion-content{
   /*-webkit-box-shadow: 0px 8px 8px -4px rgba(148,148,148,0.84);
   -moz-box-shadow: 0px 8px 8px -4px rgba(148,148,148,0.84);
   box-shadow: 0px 8px 8px -4px rgba(148,148,148,0.84);*/
+}
+ion-list{
+  background-color: transparent;
+}
+ion-list ion-item{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ion-list ion-item a{
+  text-decoration: none;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
 }
