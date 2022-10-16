@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons collapse="true" slot="start">
+      <ion-button (click)="voltar()" ><ion-icon name="close" color="danger"></ion-icon></ion-button>
+    </ion-buttons>
+    <ion-title>Criar</ion-title>
+    <ion-buttons collapse="true" slot="end">
+      <ion-button (click)="avancar()"><ion-icon name="arrow-forward-outline" color="success"></ion-icon></ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="containerCnpj">
+    <ion-item fill="clear">
+      <ion-label position="floating">CNPJ</ion-label>
+      <ion-input type="number" maxlength="14" ngModel text></ion-input>
+      <ion-note slot="helper">Digite CNPJ válido</ion-note>
+    </ion-item>
+  </div>
+
+</ion-content>

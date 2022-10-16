@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons collapse="true" slot="start">
+      <ion-button (click)="voltar()" ><ion-icon name="home" color="dark"></ion-icon></ion-button>
+    </ion-buttons>
+    <ion-title>Editar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="editarFormulario">
+
+  </div>
+
+  <div class="barraOpcao">
+    <div class="opcoes">
+      <ion-button (click)="imprimir()" fill="clear" size="large"><ion-img class="imgOpcao" src="../../assets/icon/Ball Printer.png"></ion-img></ion-button>
+      <ion-button (click)="editar()" fill="clear" size="large"><ion-img class="imgOpcao btnEditar" src="../../assets/icon/Ball edit.png"></ion-img></ion-button>
+      <ion-button (click)="deletar()" fill="clear" size="large"><ion-img class="imgOpcao" src="../../assets/icon/Ball Delete.png"></ion-img></ion-button>
+    </div>
+  </div>
+</ion-content>

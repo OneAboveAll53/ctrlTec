@@ -10,18 +10,18 @@
 
 
       <ion-item lines="none" color="transparent">
-        <ion-label position="floating">Email</ion-label>
+        <ion-label position="floating" expand="block" color="secondary"><p>Email</p></ion-label>
         <ion-input type="email" [(ngModel)]="email"></ion-input>
       </ion-item>
 
       <ion-item lines="none" color="transparent">
-        <ion-label position="floating">Senha</ion-label>
+        <ion-label position="floating" expand="block" color="secondary"><p>Senha</p></ion-label>
         <ion-input type="password" [(ngModel)]="senha"></ion-input>
       </ion-item>
 
     </ion-card>
 
-    <ion-button (click)="login()" expand="full" fill="clear" color="light">
+    <ion-button (click)="login()" expand="block" fill="clear" color="light">
       Register
     </ion-button>
   </div>

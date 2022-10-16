@@ -19,6 +19,26 @@ const routes: Routes = [
     path: 'cadastro',
     loadChildren: () => import('./cadastro/cadastro.module').then( m => m.CadastroPageModule)
   },
+  {
+    path: 'configuracoes',
+    loadChildren: () => import('./configuracoes/configuracoes.module').then( m => m.ConfiguracoesPageModule)
+  },
+  {
+    path: 'adicionar',
+    loadChildren: () => import('./adicionar/adicionar.module').then( m => m.AdicionarPageModule)
+  },
+  {
+    path: 'procurar',
+    loadChildren: () => import('./procurar/procurar.module').then( m => m.ProcurarPageModule)
+  },
+  {
+    path: 'editar-procurar',
+    loadChildren: () => import('./editar-procurar/editar-procurar.module').then( m => m.EditarProcurarPageModule)
+  },
+  {
+    path: 'adicionar-restante',
+    loadChildren: () => import('./adicionar-restante/adicionar-restante.module').then( m => m.AdicionarRestantePageModule)
+  },
 ];
 @NgModule({
   imports: [
